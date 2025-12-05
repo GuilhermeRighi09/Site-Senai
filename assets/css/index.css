@@ -45,7 +45,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-family: "Lora", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
 
@@ -71,7 +71,7 @@ nav a {
 
 .principal p {
     font-size: 22px;
-    font-family: "Lora", serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -105,7 +105,7 @@ footer {
     padding: 20px;
     text-align: center;
     color: white;
-    font-family: "Lora", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
 

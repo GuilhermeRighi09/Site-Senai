@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(140, 192, 255); 
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.prevencao-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgb(224, 238, 255);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.prevencao-container h1 {
+    text-align: center;
+    color: rgb(79, 79, 255);
+    margin-bottom: 25px;
+}
+
+
+.prevencao-container h2 {
+    color: rgb(79, 79, 255);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+.prevencao-container p {
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+
+.prevencao-container ul {
+    margin-left: 20px;
+}
+
+.prevencao-container li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+
+.destaque {
+    background: rgb(79, 79, 255);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+.botao-voltar {
+    display: block;
+    width: 220px;
+    margin: 30px auto 0;
+    text-align: center;
+    padding: 12px;
+    background: rgb(79, 79, 255);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
