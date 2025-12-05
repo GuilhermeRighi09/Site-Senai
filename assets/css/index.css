@@ -46,6 +46,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-family: "Lora", serif;
+    font-size: 20px;
 }
 
 
@@ -53,20 +54,23 @@ nav a {
     text-align: center;
     padding: 40px 20px 20px 20px;
     color: rgb(0, 0, 0);
-    font-family: "Montserrat", sans-serif;
+    font-family: "Dosis", sans-serif;
     background-color: rgb(140, 192, 255);
+    font-size: 0px;
 }
 
 
 .principal h1 {
     font-size: 40px;
     margin-bottom: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 110);
+    margin-top: -40px;
 }
 
 
 .principal p {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Lora", serif;
 }
 
@@ -76,6 +80,7 @@ nav a {
     max-width: 900px;
     margin: 0 auto;
     background-color: rgb(140, 192, 255);
+    font-size: 20px;
 }
 
 
@@ -83,7 +88,8 @@ nav a {
     text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 110);
 }
 
 .secao ul li {
@@ -94,10 +100,11 @@ nav a {
 
 footer {
     background: #4f4fff;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     color: white;
     font-family: "Lora", serif;
+    font-size: 20px;
 }
 
 .img-carrossel {
