@@ -1,0 +1,67 @@
+body {
+            background-color: rgb(140, 192, 255); 
+            
+        }
+
+        .sintomas-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: rgb(224, 238, 255);
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .sintomas-container h1 {
+            text-align: center;
+            color: rgb(79, 79, 255); 
+            margin-bottom: 25px;
+            font-family: "Dosis", sans-serif;
+        }
+
+        .sintomas-container h2 {
+            color: rgb(79, 79, 255);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-family: "Dosis", sans-serif;
+        }
+
+        .sintomas-container p {
+            font-size: 18px;
+            color: #222;
+            margin-bottom: 12px;
+            text-align: justify;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .sintomas-container ul {
+            margin-left: 20px;
+        }
+
+        .sintomas-container li {
+            font-size: 18px;
+            margin-bottom: 8px;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .destaque {
+            background: rgb(79, 79, 255);
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .botao-voltar {
+            display: block;
+            width: 220px;
+            margin: 30px auto 0;
+            text-align: center;
+            padding: 12px;
+            background: rgb(79, 79, 255);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            font-family: "Montserrat", sans-serif;
+        }
