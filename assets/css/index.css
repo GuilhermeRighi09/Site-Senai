@@ -1,6 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(140, 192, 255);
+}
+
+
 .abanavegacao {
     background-color: rgb(140, 192, 255);
 }
+
+.abanavegacao:hover {
+    color: #4f4fff;
+}
+
+
+.logo {
+    width: 300px;    
+    height: auto;   
+    display: block;
+    margin: 0 auto;  
+    padding: 10px 0;
+}
+
 
 nav {
     display: flex;
@@ -8,6 +35,7 @@ nav {
     align-items: center;
     background-color: rgb(79, 79, 255);
     padding: 10px 0;
+    margin: 0;
 }
 
 
@@ -17,61 +45,65 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-family: "Lora", serif;
 }
 
-
-.logo {
-    width: 300px;    
-    height: auto;   
-    display: block;
-    margin: auto; 
-}
 
 .principal {
-text-align: center;
-padding: 80px 20px;
-background: linear-gradient(to bottom, #4f4fff, #8cc0ff);
-color: white;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(140, 192, 255);
 }
 
 
 .principal h1 {
-font-size: 3rem;
-margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 
 .principal p {
-font-size: 1.3rem;
+    font-size: 20px;
+    font-family: "Lora", serif;
 }
 
 
-
 .secao {
-padding: 50px 20px;
-max-width: 900px;
-margin: auto;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(140, 192, 255);
 }
 
 
 .secao h2 {
-text-align: center;
-font-size: 2rem;
-margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
 }
-
 
 .secao ul li {
-margin: 10px 0;
-font-size: 1.1rem;
+    margin: 10px;
+    font-size: 20px;
 }
 
 
-/* ==== FOOTER ==== */
 footer {
-background: #4f4fff;
-padding: 30px;
-text-align: center;
-color: white;
+    background: #4f4fff;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Lora", serif;
+}
+
+.img-carrossel {
+    width: 100%;
+    height: 400px;  
+    object-fit:cover;
+    display: block;
 }
 
