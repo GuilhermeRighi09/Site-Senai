@@ -10,10 +10,10 @@
             
 
             let texto = `*Contato Novembro Azul - SENAI*%0A%0A
-*Nome:* ${nome}%0A
-*E-mail:* ${email}%0A
-*Telefone:* ${telefone}%0A
-*Mensagem:* ${mensagem}`;
+            *Nome:* ${nome}%0A
+            *E-mail:* ${email}%0A
+            *Telefone:* ${telefone}%0A
+            *Mensagem:* ${mensagem}`;
 
             let link = `https://wa.me/${numeroWhatsApp}?text=${texto}`;
 
